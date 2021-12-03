@@ -1,0 +1,26 @@
+{
+  "name": "dastkari-dashboard",
+  "description": "A GraphQL-powered, single-page dashboard application for Dastkari",
+  "repository": "https://github.com/mirumee/dastkari-dashboard",
+  "website": "http://getdastkari.com/",
+  "logo": "https://mirumee.com/img/opensource_dastkari.jpg",
+  "keywords": ["dastkari", "e-commerce", "dashboard"],
+  "env": {
+    "API_URI": {
+      "description": "URI of a running instance of Dastkari GraphQL API",
+      "value": "https://demo.getdastkari.com/graphql/"
+    },
+    "APP_MOUNT_URI": {
+      "description": "URI at which the Dashboard app will be mounted",
+      "value": "/"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static.git"
+    }
+  ]
+}
