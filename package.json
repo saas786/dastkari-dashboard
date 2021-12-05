@@ -1,13 +1,11 @@
 {
   "name": "dastkari-dashboard",
-  "version": "2.10.1",
   "main": "src/index.tsx",
   "repository": {
     "type": "git",
     "url": "https://github.com/ZicsX/dastkari-dashboard.git"
   },
   "author": "ZicsX",
-  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/ZicsX/dastkari-dashboard/issues"
   },
